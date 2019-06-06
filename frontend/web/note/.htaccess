@@ -1,0 +1,4 @@
+<FilesMatch "\.(?:doc|docx|pdf|txt)$">
+         Order allow,deny
+  Deny from all
+</FilesMatch>
